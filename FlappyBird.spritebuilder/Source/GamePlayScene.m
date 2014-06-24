@@ -14,6 +14,7 @@
 }
 
 -(void)update:(CCTime)delta
+
 {
     // put update code here
     timeSinceObstacle += delta;
@@ -23,7 +24,6 @@
         [self addObstacle];
         
         timeSinceObstacle = 0.0f;
-
 }
 
 // put new methods here
